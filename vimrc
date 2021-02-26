@@ -111,8 +111,14 @@ set showmatch " live match highlighting
 set hlsearch " highlight matches
 set gdefault " use the `g` flag by default.
 
+autocmd BufEnter *.p4 setlocal filetype=cpp
+
 " Turn on line number
 set number
+
+" Make it possible to move between lines with left/right when at beginning/end
+" of line. Works for both command/insert mode
+set whichwrap+=<,>,[,]
 
 " allow the cursor to go anywhere in visual block mode.
 set virtualedit+=block

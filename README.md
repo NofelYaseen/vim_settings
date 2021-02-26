@@ -41,4 +41,6 @@ Goto line: `:<line_number>`
 
 Comment/Uncomment line: `gcc`
 
+Go to Start of file: `gg`
 
+Go to end of line `$`
