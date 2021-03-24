@@ -43,4 +43,6 @@ Comment/Uncomment line: `gcc`
 
 Go to Start of file: `gg`
 
-Go to end of line `$`
+Go to end of line: `$`
+
+Duplicate line: `yyp`
