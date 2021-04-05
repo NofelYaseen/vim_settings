@@ -4,6 +4,14 @@ Here is my vim configuration file and with some instructions/commands I use regu
 
 ## Instructions
 
+Update Vim
+```
+sudo add-apt-repository ppa:jonathonf/vim
+sudo apt update
+sudo apt install vim
+```
+
+
 Copy `vimrc` file to `$HOME`. Rename it to `.vimrc`. 
 This file contains all the plugins and settings. It's good to learn how to edit this file.
 
