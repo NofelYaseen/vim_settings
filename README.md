@@ -4,7 +4,7 @@ Here is my vim configuration file and with some instructions/commands I use regu
 
 ## Instructions
 
-Update Vim
+### Update Vim
 ```
 sudo add-apt-repository ppa:jonathonf/vim
 sudo apt update
@@ -21,7 +21,7 @@ This file contains all the plugins and settings. It's good to learn how to edit 
 Bundle 'githubUsername/repoName'
 ```
 
-Vundle setup instructions
+### Vundle setup instructions
 
 ```
 mkdir .vim
@@ -29,7 +29,11 @@ cd .vim
 mkdir bundle
 cd bundle
 git clone https://github.com/gmarik/vundle
+vim +PluginInstall +qall
+cd YouCompleteMe
+python install.py
 ```
+
 
 ## Commands
 
